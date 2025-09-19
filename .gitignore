@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Data & DB
+data/*
+!data/.gitkeep
+db/*
+!db/.gitkeep
+
+# Others
+.DS_Store
+
+# VS Code
+.vscode/
+*.code-workspace
