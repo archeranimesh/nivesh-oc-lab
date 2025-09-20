@@ -1,24 +1,14 @@
-# Python
+# env & python
+.venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.log
 
-# Virtual env
-.venv/
-env/
-venv/
-
-# Data & DB
-data/*
-!data/.gitkeep
+# local data
 db/*
 !db/.gitkeep
+logs/*
+!logs/.gitkeep
 
-# Others
-.DS_Store
-
-# VS Code
+# editors
 .vscode/
 *.code-workspace
